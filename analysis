@@ -1,0 +1,1 @@
+makeEmpty(BinaryNode *& t) Time Complexity: O(n). Have to iterate through and delete n nodes.
