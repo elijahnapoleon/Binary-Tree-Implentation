@@ -51,14 +51,7 @@ Conversion to Infix Expression:. To convert a postfix expression into an infix e
 
 The basic operation of building a binary expression tree from a postfix expression is similar to that of evaluating postfix expression. Refer to Section 4.2.2 for the basic process of building a binary expression tree from a postfix expression.
 
-Note that during the conversion from postfix to infix expression, parentheses may need to be added to ensure that the infix expression has the same value (and the same evaluation order) as the corresponding postfix expression. Your result should not add unnecessary parentheses. Tokens in an infix expression should also be separated by a space. The following are a few examples of postfix expressions and the corresponding infix expressions.
-
-postfix expression	infix expression
-4 50 6 + +	        4 + ( 50 + 6 )
-4 50 + 6 +	4 + 50 + 6
-4 50 + 6 2 * +	4 + 50 + 6 * 2
-4 50 6 + + 2 *	( 4 + ( 50 + 6 ) ) * 2
-a b + c d e + * *	( a + b ) * ( c * ( d + e ) )
+Note that during the conversion from postfix to infix expression, parentheses may need to be added to ensure that the infix expression has the same value (and the same evaluation order) as the corresponding postfix expression. Your result should not add unnecessary parentheses. Tokens in an infix expression should also be separated by a space. 
  
 Other Requirements:
 
