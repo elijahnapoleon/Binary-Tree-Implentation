@@ -8,7 +8,6 @@ Binary Expression Tree:. Build a binary expression tree class called "BET". (Not
 Public interface
 
 BET(): default zero-parameter constructor. Builds an empty tree.
-
 BET(const string& postfix): one-parameter constructor, where parameter "postfix" is string containing a postfix expression. The tree should be built based on the postfix expression. Tokens in the postfix expression are separated by spaces.
 BET(const BET&): copy constructor -- makes appropriate deep copy of the tree
 ~BET(): destructor -- cleans up all dynamic space in the tree
